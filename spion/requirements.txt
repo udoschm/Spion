@@ -1,4 +1,4 @@
 streamlit-extras
 streamlit
-random
-time
+random2
+python-time
