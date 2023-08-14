@@ -63,11 +63,11 @@ def timer_allert():
 
 
 def choice_location():
-    file_path = 'locations.txt'  # Passe den Dateipfad entsprechend an
+    file_path = 'spion/locations.txt'
     lines = []
     with open(file_path, 'r') as file:
         for line in file:
-            lines.append(line.strip())  # strip() entfernt führende und abschließende Leerzeichen und Zeilenumbrüche
+            lines.append(line.strip())
     random_line = random.choice(lines)
     return random_line
 
